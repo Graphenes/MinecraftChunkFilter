@@ -1,4 +1,4 @@
-## Welcome to MinecraftChunkFilter
+## Welcome to MinecraftChunkFilter 
 
 Copyright (C) 2018 Steve Witherly
 
