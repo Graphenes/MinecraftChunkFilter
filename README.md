@@ -14,6 +14,7 @@ Proposed features:\
 1. Anvil file format compatible, 1.2(?) - 1.12
 2. Filter (erase) chunks based on Biome.
 3. Filter (erase) chunks based on Block IDs ie. water, granite, crafting table, etc
+4. Avoid at all costs writing to or damaging original files (readonly - Outputs map copies.)
 
 I am not affiliated with Minecraft/Mojang\
 I am not affiliated with Justin Aquadro
