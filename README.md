@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to MinecraftChunkFilter
+This project is intended to prune unwanted chunks from Minecraft worlds.\
+I will be using the excellent [substrate.dll](https://github.com/minecraft-dotnet/Substrate) created by jaquadro
 
 You can use the [editor on GitHub](https://github.com/Graphenes/MinecraftChunkFilter/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
