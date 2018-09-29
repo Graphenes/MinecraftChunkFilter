@@ -94,6 +94,20 @@ Partial Class Form1
         Me.CheckBox44 = New System.Windows.Forms.CheckBox()
         Me.CheckBox45 = New System.Windows.Forms.CheckBox()
         Me.CheckBox46 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox15 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox48 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox49 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox50 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox52 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox54 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox55 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox16 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox47 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox53 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox56 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox57 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox58 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox51 = New System.Windows.Forms.CheckBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.TabPage3.SuspendLayout()
@@ -113,6 +127,8 @@ Partial Class Form1
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox13.SuspendLayout()
         Me.GroupBox14.SuspendLayout()
+        Me.GroupBox15.SuspendLayout()
+        Me.GroupBox16.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -191,6 +207,8 @@ Partial Class Form1
         Me.Panel1.AutoScroll = True
         Me.Panel1.AutoScrollMinSize = New System.Drawing.Size(30, 0)
         Me.Panel1.AutoSize = True
+        Me.Panel1.Controls.Add(Me.GroupBox16)
+        Me.Panel1.Controls.Add(Me.GroupBox15)
         Me.Panel1.Controls.Add(Me.GroupBox14)
         Me.Panel1.Controls.Add(Me.GroupBox13)
         Me.Panel1.Controls.Add(Me.GroupBox11)
@@ -294,7 +312,7 @@ Partial Class Form1
         Me.GroupBox10.Controls.Add(Me.CheckBox27)
         Me.GroupBox10.Controls.Add(Me.CheckBox26)
         Me.GroupBox10.Font = New System.Drawing.Font("Swis721 LtCn BT", 16.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox10.Location = New System.Drawing.Point(247, 1036)
+        Me.GroupBox10.Location = New System.Drawing.Point(319, 2272)
         Me.GroupBox10.Name = "GroupBox10"
         Me.GroupBox10.Size = New System.Drawing.Size(113, 274)
         Me.GroupBox10.TabIndex = 16
@@ -979,6 +997,174 @@ Partial Class Form1
         Me.CheckBox46.Text = "Lapis Lazuli Ore 21-0"
         Me.CheckBox46.UseVisualStyleBackColor = True
         '
+        'GroupBox15
+        '
+        Me.GroupBox15.AutoSize = True
+        Me.GroupBox15.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.GroupBox15.Controls.Add(Me.CheckBox48)
+        Me.GroupBox15.Controls.Add(Me.CheckBox49)
+        Me.GroupBox15.Controls.Add(Me.CheckBox50)
+        Me.GroupBox15.Controls.Add(Me.CheckBox52)
+        Me.GroupBox15.Controls.Add(Me.CheckBox54)
+        Me.GroupBox15.Controls.Add(Me.CheckBox55)
+        Me.GroupBox15.Font = New System.Drawing.Font("Swis721 LtCn BT", 16.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox15.Location = New System.Drawing.Point(6, 738)
+        Me.GroupBox15.Name = "GroupBox15"
+        Me.GroupBox15.Size = New System.Drawing.Size(279, 276)
+        Me.GroupBox15.TabIndex = 22
+        Me.GroupBox15.TabStop = False
+        Me.GroupBox15.Text = "Wood"
+        '
+        'CheckBox48
+        '
+        Me.CheckBox48.AutoSize = True
+        Me.CheckBox48.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox48.Location = New System.Drawing.Point(6, 100)
+        Me.CheckBox48.Name = "CheckBox48"
+        Me.CheckBox48.Size = New System.Drawing.Size(254, 30)
+        Me.CheckBox48.TabIndex = 1
+        Me.CheckBox48.Text = "Birch Wood 17-2,6,10,14"
+        Me.CheckBox48.UseVisualStyleBackColor = True
+        '
+        'CheckBox49
+        '
+        Me.CheckBox49.AutoSize = True
+        Me.CheckBox49.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox49.Location = New System.Drawing.Point(6, 214)
+        Me.CheckBox49.Name = "CheckBox49"
+        Me.CheckBox49.Size = New System.Drawing.Size(229, 30)
+        Me.CheckBox49.TabIndex = 3
+        Me.CheckBox49.Text = "Dark Oak 162-1,5,9,13"
+        Me.CheckBox49.UseVisualStyleBackColor = True
+        '
+        'CheckBox50
+        '
+        Me.CheckBox50.AutoSize = True
+        Me.CheckBox50.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox50.Location = New System.Drawing.Point(6, 32)
+        Me.CheckBox50.Name = "CheckBox50"
+        Me.CheckBox50.Size = New System.Drawing.Size(229, 30)
+        Me.CheckBox50.TabIndex = 1
+        Me.CheckBox50.Text = "Oak Wood 17-0,4,8,12"
+        Me.CheckBox50.UseVisualStyleBackColor = True
+        '
+        'CheckBox52
+        '
+        Me.CheckBox52.AutoSize = True
+        Me.CheckBox52.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox52.Location = New System.Drawing.Point(6, 64)
+        Me.CheckBox52.Name = "CheckBox52"
+        Me.CheckBox52.Size = New System.Drawing.Size(258, 30)
+        Me.CheckBox52.TabIndex = 1
+        Me.CheckBox52.Text = "Spruce Wood 17-1,5,9,13"
+        Me.CheckBox52.UseVisualStyleBackColor = True
+        '
+        'CheckBox54
+        '
+        Me.CheckBox54.AutoSize = True
+        Me.CheckBox54.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox54.Location = New System.Drawing.Point(6, 136)
+        Me.CheckBox54.Name = "CheckBox54"
+        Me.CheckBox54.Size = New System.Drawing.Size(267, 30)
+        Me.CheckBox54.TabIndex = 5
+        Me.CheckBox54.Text = "Jungle Wood 17-3,7,11,15"
+        Me.CheckBox54.UseVisualStyleBackColor = True
+        '
+        'CheckBox55
+        '
+        Me.CheckBox55.AutoSize = True
+        Me.CheckBox55.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox55.Location = New System.Drawing.Point(6, 175)
+        Me.CheckBox55.Name = "CheckBox55"
+        Me.CheckBox55.Size = New System.Drawing.Size(266, 30)
+        Me.CheckBox55.TabIndex = 4
+        Me.CheckBox55.Text = "Acacia Wood 162-0,4,8,12"
+        Me.CheckBox55.UseVisualStyleBackColor = True
+        '
+        'GroupBox16
+        '
+        Me.GroupBox16.AutoSize = True
+        Me.GroupBox16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.GroupBox16.Controls.Add(Me.CheckBox47)
+        Me.GroupBox16.Controls.Add(Me.CheckBox51)
+        Me.GroupBox16.Controls.Add(Me.CheckBox53)
+        Me.GroupBox16.Controls.Add(Me.CheckBox56)
+        Me.GroupBox16.Controls.Add(Me.CheckBox57)
+        Me.GroupBox16.Controls.Add(Me.CheckBox58)
+        Me.GroupBox16.Font = New System.Drawing.Font("Swis721 LtCn BT", 16.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox16.Location = New System.Drawing.Point(6, 1020)
+        Me.GroupBox16.Name = "GroupBox16"
+        Me.GroupBox16.Size = New System.Drawing.Size(279, 270)
+        Me.GroupBox16.TabIndex = 23
+        Me.GroupBox16.TabStop = False
+        Me.GroupBox16.Text = "Wood"
+        '
+        'CheckBox47
+        '
+        Me.CheckBox47.AutoSize = True
+        Me.CheckBox47.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox47.Location = New System.Drawing.Point(6, 100)
+        Me.CheckBox47.Name = "CheckBox47"
+        Me.CheckBox47.Size = New System.Drawing.Size(254, 30)
+        Me.CheckBox47.TabIndex = 1
+        Me.CheckBox47.Text = "Birch Wood 18-2,6,10,14"
+        Me.CheckBox47.UseVisualStyleBackColor = True
+        '
+        'CheckBox53
+        '
+        Me.CheckBox53.AutoSize = True
+        Me.CheckBox53.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox53.Location = New System.Drawing.Point(6, 32)
+        Me.CheckBox53.Name = "CheckBox53"
+        Me.CheckBox53.Size = New System.Drawing.Size(229, 30)
+        Me.CheckBox53.TabIndex = 1
+        Me.CheckBox53.Text = "Oak Wood 18-0,4,8,12"
+        Me.CheckBox53.UseVisualStyleBackColor = True
+        '
+        'CheckBox56
+        '
+        Me.CheckBox56.AutoSize = True
+        Me.CheckBox56.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox56.Location = New System.Drawing.Point(6, 64)
+        Me.CheckBox56.Name = "CheckBox56"
+        Me.CheckBox56.Size = New System.Drawing.Size(258, 30)
+        Me.CheckBox56.TabIndex = 1
+        Me.CheckBox56.Text = "Spruce Wood 18-1,5,9,13"
+        Me.CheckBox56.UseVisualStyleBackColor = True
+        '
+        'CheckBox57
+        '
+        Me.CheckBox57.AutoSize = True
+        Me.CheckBox57.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox57.Location = New System.Drawing.Point(6, 136)
+        Me.CheckBox57.Name = "CheckBox57"
+        Me.CheckBox57.Size = New System.Drawing.Size(267, 30)
+        Me.CheckBox57.TabIndex = 5
+        Me.CheckBox57.Text = "Jungle Wood 18-3,7,11,15"
+        Me.CheckBox57.UseVisualStyleBackColor = True
+        '
+        'CheckBox58
+        '
+        Me.CheckBox58.AutoSize = True
+        Me.CheckBox58.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox58.Location = New System.Drawing.Point(6, 172)
+        Me.CheckBox58.Name = "CheckBox58"
+        Me.CheckBox58.Size = New System.Drawing.Size(266, 30)
+        Me.CheckBox58.TabIndex = 4
+        Me.CheckBox58.Text = "Acacia Wood 161-0,4,8,12"
+        Me.CheckBox58.UseVisualStyleBackColor = True
+        '
+        'CheckBox51
+        '
+        Me.CheckBox51.AutoSize = True
+        Me.CheckBox51.ForeColor = System.Drawing.Color.ForestGreen
+        Me.CheckBox51.Location = New System.Drawing.Point(6, 208)
+        Me.CheckBox51.Name = "CheckBox51"
+        Me.CheckBox51.Size = New System.Drawing.Size(229, 30)
+        Me.CheckBox51.TabIndex = 3
+        Me.CheckBox51.Text = "Dark Oak 161-1,5,9,13"
+        Me.CheckBox51.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1024,6 +1210,10 @@ Partial Class Form1
         Me.GroupBox13.PerformLayout()
         Me.GroupBox14.ResumeLayout(False)
         Me.GroupBox14.PerformLayout()
+        Me.GroupBox15.ResumeLayout(False)
+        Me.GroupBox15.PerformLayout()
+        Me.GroupBox16.ResumeLayout(False)
+        Me.GroupBox16.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1100,4 +1290,18 @@ Partial Class Form1
     Friend WithEvents CheckBox43 As CheckBox
     Friend WithEvents GroupBox13 As GroupBox
     Friend WithEvents CheckBox37 As CheckBox
+    Friend WithEvents GroupBox15 As GroupBox
+    Friend WithEvents CheckBox48 As CheckBox
+    Friend WithEvents CheckBox49 As CheckBox
+    Friend WithEvents CheckBox50 As CheckBox
+    Friend WithEvents CheckBox52 As CheckBox
+    Friend WithEvents CheckBox54 As CheckBox
+    Friend WithEvents CheckBox55 As CheckBox
+    Friend WithEvents GroupBox16 As GroupBox
+    Friend WithEvents CheckBox47 As CheckBox
+    Friend WithEvents CheckBox51 As CheckBox
+    Friend WithEvents CheckBox53 As CheckBox
+    Friend WithEvents CheckBox56 As CheckBox
+    Friend WithEvents CheckBox57 As CheckBox
+    Friend WithEvents CheckBox58 As CheckBox
 End Class
