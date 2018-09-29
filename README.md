@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Welcome to MinecraftChunkFilter 
 
-You can use the [editor on GitHub](https://github.com/Graphenes/MinecraftChunkFilter/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Copyright (C) 2018 Steve Witherly 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+LICENSE:\
+MinecraftChunkFilter is licensed under the MIT License.  See LICENSE.txt.
 
-### Markdown
+ABOUT:\
+This project is intended to prune unwanted chunks from Minecraft worlds.\
+I will be using the excellent [substrate.dll](https://github.com/minecraft-dotnet/Substrate) created by **Justin Aquadro**.\
+This program is currently in **Alpha** 9/28/2018
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Proposed features:
 
-```markdown
-Syntax highlighted code block
+1. Anvil file format compatible, 1.2(?) - 1.12
+2. Filter (erase) chunks based on Biome.
+3. Filter (erase) chunks based on Block IDs ie. water, granite, crafting table, etc
+4. Avoid at all costs writing to or damaging original files (readonly - Outputs map copies.)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Graphenes/MinecraftChunkFilter/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I am not affiliated with Minecraft/Mojang\
+I am not affiliated with Justin Aquadro
