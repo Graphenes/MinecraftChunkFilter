@@ -20,4 +20,12 @@ Public Class Form1
             Me.TextBox_LevelDatPath.Text = path
         End If
     End Sub
+
+
+
+
+
+    Private Sub TextBox_LevelDatPath_MouseDown(sender As Object, e As MouseEventArgs) Handles TextBox_LevelDatPath.MouseDown
+        TextBox_LevelDatPath.SelectAll()
+    End Sub
 End Class
